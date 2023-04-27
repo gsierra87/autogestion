@@ -1,3 +1,21 @@
+@font-face {
+  font-family: 'Gilroy-SemiBold';
+  src: url('../fonts/Gilroy-SemiBold.otf');
+}
+
+@font-face {
+  font-family: 'Gilroy-Light';
+  src: url('../fonts/Gilroy-Light.otf');
+}
+
+@font-face {
+  font-family: 'Gilroy-ExtraBold';
+  src: url('../fonts/Gilroy-ExtraBold.otf');
+}
+
+body {
+  font-family: 'Gilroy-Light' !important;
+}
 
 .card2 {
   display: flex;
@@ -102,7 +120,8 @@ svg {
 }
 
 .cardHeader {
-  height: 80px;
+    /* height: 80px; */
+    height: 16px;
     background: linear-gradient(90deg, #160644 0%, #290C5E 18%, #771B72 40%, #B33354 60%, #D46949 80%, #D47349 100%);
     display: flex;
     align-items: center;
@@ -147,9 +166,48 @@ svg {
       width: 100%; }
 
 
+      .btn-acindar-orange {
+        width: fit-content;
+        display: flex;
+        justify-content: space-around;
+        padding: .75rem 1.25rem;
+        border: 1px solid black;
+        color: white;
+        background: orangered;
+        transition: all .3s;
+        position: relative;
+        overflow: hidden;
+        z-index: 1;
+        align-items: center;
+        text-decoration: none;
+        cursor: pointer;
+        border-radius: 4px; }
+        .btn-acindar-orange svg {
+          width: 35px;
+          margin-left: 25px; }
+        .btn-acindar-orange:before {
+          content: '';
+          position: absolute;
+          bottom: 0;
+          left: 0;
+          width: 0%;
+          height: 100%;
+          background: black;
+          transition: all .3s;
+          z-index: -1; }
+        .btn-acindar-orange:hover {
+          color: #fff;
+          border: 1px solid black;
+          background: white; }
+          .btn-acindar-orange:hover:before {
+            width: 100%; }
+
+
+
 .detailOption {
+  border: 1px dashed black !important;
+  background: white !important;
   color: white !important;
-  background: #0A7FF5 !important;
 }
 
 body {
@@ -170,4 +228,32 @@ footer {
   white-space: nowrap;
   line-height: 60px;
   color: white;
+}
+
+.btn-close-black {
+  background: black;
+  width: 20px;
+  padding: 4px;
+  border-radius: 50%;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  cursor: pointer;
+}
+
+.modal-header {
+  background: linear-gradient(90deg, #160644 0%, #290C5E 18%, #771B72 40%, #B33354 60%, #D46949 80%, #D47349 100%) !important;
+  color: white !important;
+}
+
+.btn {
+  height: 40px !important;
+}
+
+.btn span {
+  font-size: 13px !important;
 }

@@ -17,7 +17,7 @@
 <body>
     <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#">Accesos</a>
+    <a class="navbar-brand" href="#"><b>Acindar</b> <b style="color: orangered;">Autogestión</b></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -26,17 +26,26 @@
         <li class="nav-item">
           <a class="nav-link active" aria-current="page" href="#">Inicio</a>
         </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Accesos Recientes
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Recibo</a></li>
+            <li><a class="dropdown-item" href="#">Aprobación Vacaciones</a></li>
+            <li><a class="dropdown-item" href="#">Solicitud Anticipo Sueldo</a></li>
+          </ul>
+        </li>
       </ul>
       <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-secondary" type="submit">Search</button>
+        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+        <button class="btn btn-outline-secondary" type="submit">Buscar</button>
       </form>
     </div>
   </div>
 </nav>
 
 <div id="carouselExampleIndicators" class="carousel slide shadow" data-ride="carousel">
-  
     <div class="carousel-inner" style="height: 150px;">
       <div class="carousel-item active">
         <img class="d-block w-100" src="img/banner2.jpg" alt="Primer Banner">
@@ -54,221 +63,247 @@
       <span class="sr-only">Next</span>
     </a>
   </div>
-<!-- 
-<div class="container">
-    <div class="card2">
-      <h4 class="title">Personas</h4>
-      <div class="bar">
-        <div class="emptybar"></div>
-        <div class="filledbar"></div>
-      </div>
-      <div class="buttonsContent">
-        <button style="width: 80%;" type="button" class="btn btn-primary">Portal Empleados</button>
-        <button style="width: 80%; margin-top: 5px;" type="button" class="btn btn-primary">Primary</button>
-        <button style="width: 80%; margin-top: 5px;" type="button" class="btn btn-primary">Primary</button>
-      </div>
-    </div>
-    <div class="card2">
-      <h4 class="title">Utilidades</h4>
-      <div class="bar">
-        <div class="emptybar"></div>
-        <div class="filledbar"></div>
-      </div>
-      <div class="circle">
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-        <circle class="stroke" cx="60" cy="60" r="50"/>
-      </svg>
-      </div>
-    </div>
-    <div class="card2">
-      <h4 class="title">Card 3</h4>
-      <div class="bar">
-        <div class="emptybar"></div>
-        <div class="filledbar"></div>
-      </div>
-      <div class="circle">
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-        <circle class="stroke" cx="60" cy="60" r="50"/>
-      </svg>
-      </div>
-    </div>
-    <div class="card2">
-      <h4 class="title">Card 4</h4>
-      <div class="bar">
-        <div class="emptybar"></div>
-        <div class="filledbar"></div>
-      </div>
-      <div class="circle">
-        <svg version="1.1" xmlns="http://www.w3.org/2000/svg">
-        <circle class="stroke" cx="60" cy="60" r="50"/>
-      </svg>
-      </div>
-    </div>
-  </div> -->
 
 <main role="main" class="container mt-4 mb-4" style="display: flex; justify-content: center;">
 <div class="row p-0 m-0" style="width: 80%;">
     <div class="col p-0 d-flex justify-content-center">
-        <div class="card shadow" style="width: 215px;">
+          <div class="card shadow" style="width: 215px;height: 288px;">
             <div class="cardHeader">
-    <img src="img/user.png" style="width: 65px;" alt="">
-</div>
+            </div>
             <div class="card-body">
-              <h5 style="color: orangered;" class="card-title">Personas</h5>
-              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-              <a id="btnAutoGestion" class="btn-acindar-primary w-100"  role="button" href="http://autoatendimento.arcelormittal.com.br/irj/portal" >Portal Empleado</a>
-              <div class="collapse mt-2" id="collapseAutoGestion">
-                <div class="card card-body detailOption d-flex justify-content-center">
-                  
-                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
-                </div>
+              <div style="display: flex;justify-content: center; align-items: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
+                  class="bi bi-person-fill-gear" viewBox="0 0 16 16" style="fill: orangered;">
+                  <path
+                    d="M11 5a3 3 0 1 1-6 0 3 3 0 0 1 6 0Zm-9 8c0 1 1 1 1 1h5.256A4.493 4.493 0 0 1 8 12.5a4.49 4.49 0 0 1 1.544-3.393C9.077 9.038 8.564 9 8 9c-5 0-6 3-6 4Zm9.886-3.54c.18-.613 1.048-.613 1.229 0l.043.148a.64.64 0 0 0 .921.382l.136-.074c.561-.306 1.175.308.87.869l-.075.136a.64.64 0 0 0 .382.92l.149.045c.612.18.612 1.048 0 1.229l-.15.043a.64.64 0 0 0-.38.921l.074.136c.305.561-.309 1.175-.87.87l-.136-.075a.64.64 0 0 0-.92.382l-.045.149c-.18.612-1.048.612-1.229 0l-.043-.15a.64.64 0 0 0-.921-.38l-.136.074c-.561.305-1.175-.309-.87-.87l.075-.136a.64.64 0 0 0-.382-.92l-.148-.045c-.613-.18-.613-1.048 0-1.229l.148-.043a.64.64 0 0 0 .382-.921l-.074-.136c-.306-.561.308-1.175.869-.87l.136.075a.64.64 0 0 0 .92-.382l.045-.148ZM14 12.5a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0Z">
+                  </path>
+                </svg>
               </div>
-              <a id="btnIdm" class="btn-acindar-primary w-100 mt-2"  role="button" href="https://idm.arcelormittal.com.br/" >IDM</a>
-              <div class="collapse mt-2" id="collapseIdm">
-                <div class="card card-body detailOption">
-                  
-                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
-                </div>
-              </div>
-              <a id="btnDesempenio" class="btn-acindar-primary w-100 mt-2"  role="button" href="http://sgd/sgd/Seguridad/Login.aspx">Gestión de Desempeño</a>
-              <div class="collapse mt-2" id="collapseDesempenio">
-                <div class="card card-body detailOption">
-                  
-                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
-                </div>
-              </div>
-              <a id="btnSis" class="btn-acindar-primary w-100 mt-2"  role="button" href="http://sig.arcelormittal.com.br/sig/login" >Sis. Gestión Integral</a>
-              <div class="collapse mt-2" id="collapseSis">
-                <div class="card card-body detailOption">
-                  
-                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
-                </div>
-              </div>
+              <h5 style="font-family: Gilroy-SemiBold; color: black;text-align: center;/* margin-top: 17px; */" class="card-title">Autogestión
+              </h5>
+              <p class="card-text mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit
+                amet consectetur adipisicing elit.</p>
+              <button id="btnSnow" class="btn-acindar-primary w-100" data-bs-toggle="modal" data-bs-target="#autogestionModal" >Ingresar</button>
             </div>
           </div>
     </div>
-    <div class="col p-0 d-flex justify-content-center">
-        <div class="card shadow" style="width: 215px;">
-            <div class="cardHeader">
-    <img src="img/gestion.png" style="width: 55px;" alt="">
-</div>
-            <div class="card-body">
-              <h5 style="color: orangered;" class="card-title">Gestión</h5>
-              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-              <a id="btnSnow" class="btn-acindar-primary w-100"  role="button" href="https://amamericas.service-now.com/sp_acindar">Service Now</a>
-              <div class="collapse mt-2" id="collapseSnow">
-                <div class="card card-body detailOption d-flex justify-content-center">
-                  
-                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
-                </div>
-              </div>
-              <a id="btnIdear" class="btn-acindar-primary w-100 mt-2" role="button" href="https://arcelormittal.sharepoint.com/sites/Acindar-idear/Lists/Iniciativas/Iniciativas.aspx">Idear</a>
-              <div class="collapse mt-2" id="collapseIdear">
-                <div class="card card-body detailOption">
-                  
-                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
-                </div>
-              </div>
-              <a id="btnGuardias" class="btn-acindar-primary w-100 mt-2"  role="button" >Guardias</a>
-              <div class="collapse mt-2" id="collapseGuardias">
-                <div class="card card-body detailOption">
-                  
-                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
-                </div>
-              </div>
-              <a id="btnFiori" class="btn-acindar-primary w-100 mt-2"  role="button" href="https://sapfiori.arcelormittal.com.br/">SAP Fiori</a>
-              <div class="collapse mt-2" id="collapseFiori">
-                <div class="card card-body detailOption">
-                  
-                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
-                </div>
-              </div>
-            </div>
+    <div class="col p-0 d-flex justify-content-center mt-2 mt-sm-2 mt-md-0 mt-lg-0 mt-xl-0">
+      <div class="card shadow" style="width: 215px;height: 288px;">
+        <div class="cardHeader">
+
+        </div>
+        <div class="card-body">
+          <div style="display: flex;justify-content: center; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
+              class="bi bi-person-fill-gear" viewBox="0 0 16 16" style="fill: orangered;">
+              <path d="M9.405 1.05c-.413-1.4-2.397-1.4-2.81 0l-.1.34a1.464 1.464 0 0 1-2.105.872l-.31-.17c-1.283-.698-2.686.705-1.987 1.987l.169.311c.446.82.023 1.841-.872 2.105l-.34.1c-1.4.413-1.4 2.397 0 2.81l.34.1a1.464 1.464 0 0 1 .872 2.105l-.17.31c-.698 1.283.705 2.686 1.987 1.987l.311-.169a1.464 1.464 0 0 1 2.105.872l.1.34c.413 1.4 2.397 1.4 2.81 0l.1-.34a1.464 1.464 0 0 1 2.105-.872l.31.17c1.283.698 2.686-.705 1.987-1.987l-.169-.311a1.464 1.464 0 0 1 .872-2.105l.34-.1c1.4-.413 1.4-2.397 0-2.81l-.34-.1a1.464 1.464 0 0 1-.872-2.105l.17-.31c.698-1.283-.705-2.686-1.987-1.987l-.311.169a1.464 1.464 0 0 1-2.105-.872l-.1-.34zM8 10.93a2.929 2.929 0 1 1 0-5.86 2.929 2.929 0 0 1 0 5.858z"/>
+            </svg>
           </div>
+          <h5 style="font-family: Gilroy-SemiBold; color: black;text-align: center;/* margin-top: 17px; */" class="card-title">Perfiles GRC
+          </h5>
+          <p class="card-text mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit
+            amet consectetur adipisicing elit.</p>
+          <button  class="btn-acindar-primary w-100">Ingresar</button>
+        </div>
+      </div>
     </div>
-    <div class="col p-0 d-flex justify-content-center">
-        <div class="card shadow" style="width: 215px;">
-            <div class="cardHeader">
-    <img src="img/help.png" style="width: 55px;" alt="">
-</div>
-            <div class="card-body">
-              <h5 style="color: orangered;" class="card-title">Asistencia</h5>
-              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-              <a id="btnChatbot" class="btn-acindar-primary w-100"  role="button" href="https://teams.microsoft.com/l/app/79e25694-a152-4785-89ab-00792abb51e0" >Chatbot MDA</a>
-              <div class="collapse mt-2" id="collapseChatbot">
-                <div class="card card-body detailOption d-flex justify-content-center">
-                  
-                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
-                </div>
-              </div>
-              <a id="btnRecorrido" class="btn-acindar-primary w-100 mt-2"  role="button" href="https://bit.ly/31METW9" >Recorrido Transportes</a>
-              <div class="collapse mt-2" id="collapseRecorrido">
-                <div class="card card-body detailOption">
-                  
-                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
-                </div>
-              </div>
-              <a id="btnRemis" class="btn-acindar-primary w-100 mt-2"  role="button" href="https://am-acindar.sincropool.com/users/" >Remis-Vuelos-Hoteles</a>
-              <div class="collapse mt-2" id="collapseRemis">
-                <div class="card card-body detailOption">
-                  
-                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
-                </div>
-              </div>
-              <a id="btnCompra" class="btn-acindar-primary w-100 mt-2"  role="button" href="https://www.marken.com.ar/" >Compra Insumos</a>
-              <div class="collapse mt-2" id="collapseCompra">
-                <div class="card card-body detailOption">
-                  
-                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
-                </div>
-              </div>
-            </div>
+    <div class="col p-0 d-flex justify-content-center mt-2 mt-sm-2 mt-md-0 mt-lg-0 mt-xl-0">
+      <div class="card shadow" style="width: 215px;height: 288px;">
+        <div class="cardHeader">
+
+        </div>
+        <div class="card-body">
+          <div style="display: flex;justify-content: center; align-items: center;">
+            <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
+              class="bi bi-person-fill-gear" viewBox="0 0 16 16" style="fill: orangered;">
+              <path fill-rule="evenodd" d="M6 3.5A1.5 1.5 0 0 1 7.5 2h1A1.5 1.5 0 0 1 10 3.5v1A1.5 1.5 0 0 1 8.5 6v1H14a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0V8h-5v.5a.5.5 0 0 1-1 0v-1A.5.5 0 0 1 2 7h5.5V6A1.5 1.5 0 0 1 6 4.5v-1zm-6 8A1.5 1.5 0 0 1 1.5 10h1A1.5 1.5 0 0 1 4 11.5v1A1.5 1.5 0 0 1 2.5 14h-1A1.5 1.5 0 0 1 0 12.5v-1zm6 0A1.5 1.5 0 0 1 7.5 10h1a1.5 1.5 0 0 1 1.5 1.5v1A1.5 1.5 0 0 1 8.5 14h-1A1.5 1.5 0 0 1 6 12.5v-1zm6 0a1.5 1.5 0 0 1 1.5-1.5h1a1.5 1.5 0 0 1 1.5 1.5v1a1.5 1.5 0 0 1-1.5 1.5h-1a1.5 1.5 0 0 1-1.5-1.5v-1z"/>
+            </svg>
           </div>
+          <h5 style="font-family: Gilroy-SemiBold; color: black; text-align: center;/* margin-top: 17px; */" class="card-title">Organigrama
+          </h5>
+          <p class="card-text mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit
+            amet consectetur adipisicing elit.</p>
+          <a id="btnSnow" class="btn-acindar-primary w-100" role="button"
+            href="https://amamericas.service-now.com/sp_acindar">Ingresar</a>
+        </div>
+      </div>
     </div>
-    <div class="col p-0 d-flex justify-content-center">
-        <div class="card shadow" style="width: 215px;">
+    <div class="col p-0 d-flex justify-content-center mt-2 mt-sm-2 mt-md-0 mt-lg-0 mt-xl-0">
+          <div class="card shadow" style="width: 215px;height: 288px;">
             <div class="cardHeader">
-    <img src="img/tools.png" style="width: 50px;" alt="">
-</div>
+
+            </div>
             <div class="card-body">
-              <h5 style="color: orangered;" class="card-title">Utilidades</h5>
-              <p class="card-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-              <a id="btnOrganigrama" class="btn-acindar-primary w-100"  role="button" href="https://sapfiori.arcelormittal.com.br/sap/bc/ui2/flp?sap-client=310&sap-language=ES#ZACHR-display_org">Organigrama</a>
-              <div class="collapse mt-2" id="collapseOrganigrama">
-                <div class="card card-body detailOption d-flex justify-content-center">
-                  
-                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
-                </div>
+              <div style="display: flex;justify-content: center; align-items: center;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="60" height="60" fill="currentColor"
+                  class="bi bi-person-fill-gear" viewBox="0 0 16 16" style="fill: orangered;">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                </svg>
               </div>
-              <a id="btnReserva" class="btn-acindar-primary w-100 mt-2"  role="button"  href="https://arcelormittal.sharepoint.com/sites/Acindar/SitiosGenerales/ReservaSalasReunion/SitePages/Inicio.aspx">Reserva Sala Reuniones</a>
-              <div class="collapse mt-2" id="collapseReserva">
-                <div class="card card-body detailOption">
-                  
-                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
-                </div>
-              </div>
-              <a id="btnProveedores" class="btn-acindar-primary w-100 mt-2"  role="button" href="https://portalproveedores.acindar.com.ar/site/home" >Web Proveedores</a>
-              <div class="collapse mt-2" id="collapseProveedores">
-                <div class="card card-body detailOption">
-                  
-                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
-                </div>
-              </div>
-              <a id="btnOffice" class="btn-acindar-primary w-100 mt-2"  role="button" href="https://www.office.com/?auth=2&home=1">Portal Office</a>
-              <div class="collapse mt-2" id="collapseOffice">
-                <div class="card card-body detailOption">
-                  
-                    <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</span>
-                </div>
-              </div>
+              <h5 style="font-family: Gilroy-SemiBold; color: black; text-align: center;/* margin-top: 17px; */" class="card-title">Aprobaciones
+              </h5>
+              <p class="card-text mt-3">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit
+                amet consectetur adipisicing elit.</p>
+                <button id="btnSnow" class="btn-acindar-primary w-100" data-bs-toggle="modal" data-bs-target="#aprobacionesModal" >Ingresar</button>
             </div>
           </div>
     </div>
 </div>
 </main>
+
+<!--/* INI MODALS */-->
+<div class="modal fade" id="autogestionModal" tabindex="-1" role="dialog" aria-labelledby="autogestionModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="height: 55px;">
+        <h5 style="font-size: 16px;" class="modal-title" id="autogestionModalLabel">Panel de Autogestión</h5>
+        <button type="button" class="btn" data-bs-dismiss="modal" aria-label="Close">
+          <svg style="fill:white;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+          </svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <button id="btnVacaciones" class="btn-acindar-primary w-100 mt-2">
+          Vacaciones
+        </button>
+        <div class="collapse mt-3" id="collapseVacaciones">
+          <div class="card card-body detailOption shadow">
+            <div id="btnCloseVacaciones" class="btn-close-black">X</div>
+            <button class="btn btn-primary w-100 mt-1">
+                <div class="d-flex justify-content-center align-items-center">
+              <svg style="fill:white;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"/>
+              </svg>
+              <span class="ms-2">Solicitud</span>
+            </div>
+            </button>
+            <button class="btn btn-success w-100 mt-1">
+              <div class="d-flex justify-content-center align-items-center">
+                <svg style="fill:white;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                </svg>
+                <span class="ms-2">Aprobación</span>
+              </div>
+            </button>
+            <button class="btn btn-secondary w-100 mt-1">
+              <div class="d-flex justify-content-center align-items-center">
+                <svg style="fill:white;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-calendar-week-fill" viewBox="0 0 16 16">
+                  <path d="M4 .5a.5.5 0 0 0-1 0V1H2a2 2 0 0 0-2 2v1h16V3a2 2 0 0 0-2-2h-1V.5a.5.5 0 0 0-1 0V1H4V.5zM16 14V5H0v9a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2zM9.5 7h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zm3 0h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5zM2 10.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1zm3.5-.5h1a.5.5 0 0 1 .5.5v1a.5.5 0 0 1-.5.5h-1a.5.5 0 0 1-.5-.5v-1a.5.5 0 0 1 .5-.5z"/>
+                </svg>
+                <span class="ms-2">Calendario</span>
+              </div>
+            </button>
+          </div>
+        </div>
+        <button id="btnAnticipo" class="btn-acindar-primary w-100 mt-2">
+        Anticipio de Sueldo
+        </button>
+        <div class="collapse mt-3" id="collapseAnticipo">
+          <div class="card card-body detailOption shadow">
+            <div id="btnCloseAnticipo" class="btn-close-black">X</div>
+            <button class="btn btn-primary w-100 mt-1">
+             
+              <div class="d-flex justify-content-center align-items-center">
+              <svg style="fill:white;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-plus-circle-fill" viewBox="0 0 16 16">
+                <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM8.5 4.5a.5.5 0 0 0-1 0v3h-3a.5.5 0 0 0 0 1h3v3a.5.5 0 0 0 1 0v-3h3a.5.5 0 0 0 0-1h-3v-3z"/>
+              </svg>
+              <span class="ms-2">Solicitud</span>
+            </div>
+            </button>
+            <button class="btn btn-success w-100 mt-1">
+              <div class="d-flex justify-content-center align-items-center">
+                <svg style="fill:white;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                </svg>
+                <span class="ms-2">Aprobación</span>
+              </div>
+            </button>
+          </div>
+        </div>
+        <button id="btnRendiciones" class="btn-acindar-primary w-100 mt-2">
+          Rendiciones
+        </button>
+        <div class="collapse mt-3" id="collapseRendiciones">
+          <div class="card card-body detailOption shadow">
+            <div id="btnCloseRendiciones" class="btn-close-black">X</div>
+            <button class="btn btn-secondary w-100 mt-1">
+              <div class="d-flex justify-content-center align-items-center">
+                <svg style="fill:white;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-credit-card-2-front-fill" viewBox="0 0 16 16">
+                  <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2.5 1a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 .5.5h2a.5.5 0 0 0 .5-.5v-1a.5.5 0 0 0-.5-.5h-2zm0 3a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1h-5zm0 2a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1zm3 0a.5.5 0 0 0 0 1h1a.5.5 0 0 0 0-1h-1z"/>
+                </svg>
+              <span class="ms-2">Tarjeta Coorporativa</span>
+            </div>
+            </button>
+            
+            <button class="btn btn-danger w-100 mt-1">
+             
+              <div class="d-flex justify-content-center align-items-center">
+                <svg style="fill: white;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle-fill" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zM5.354 4.646a.5.5 0 1 0-.708.708L7.293 8l-2.647 2.646a.5.5 0 0 0 .708.708L8 8.707l2.646 2.647a.5.5 0 0 0 .708-.708L8.707 8l2.647-2.646a.5.5 0 0 0-.708-.708L8 7.293 5.354 4.646z"/>
+                </svg>
+              <span class="ms-2">Gastos</span>
+            </div>
+            </button>
+            <button class="btn btn-success w-100 mt-1">
+              <div class="d-flex justify-content-center align-items-center">
+                <svg style="fill:white;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="white" class="bi bi-check-circle-fill" viewBox="0 0 16 16">
+                  <path d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.97-3.03a.75.75 0 0 0-1.08.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-.01-1.05z"/>
+                </svg>
+                <span class="ms-2">Aprobación</span>
+              </div>
+            </button>
+          </div>
+        </div>
+        <a class="btn-acindar-primary w-100 mt-2"  role="button" href="http://sig.arcelormittal.com.br/sig/login" >
+          Reemplazo Gerencial
+        </a>
+        <a class="btn-acindar-primary w-100 mt-2"  role="button" href="http://sig.arcelormittal.com.br/sig/login" >
+          Gestión de Horas Extras
+        </a>
+        <a class="btn-acindar-primary w-100 mt-2"  role="button" href="http://sig.arcelormittal.com.br/sig/login" >
+          Gestión de Franco Compensatorio
+        </a>
+      </div>
+      <!-- <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      </div> -->
+    </div>
+  </div>
+</div>
+
+<div class="modal fade" id="aprobacionesModal" tabindex="-1" role="dialog" aria-labelledby="aprobacionesModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered" role="document">
+    <div class="modal-content">
+      <div class="modal-header" style="height: 55px;">
+        <h5 style="font-size: 16px;" class="modal-title" id="aprobacionesModalLabel">Panel de Aprobaciones</h5>
+        <button type="button" class="btn" data-bs-dismiss="modal" aria-label="Close">
+          <svg style="fill:white;" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-lg" viewBox="0 0 16 16">
+            <path d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8 2.146 2.854Z"/>
+          </svg>
+        </button>
+      </div>
+      <div class="modal-body">
+        <a class="btn-acindar-primary w-100 mt-2"  role="button" href="http://sig.arcelormittal.com.br/sig/login" >
+          Hoja de Servicio
+        </a>
+        <a class="btn-acindar-primary w-100 mt-2"  role="button" href="http://sig.arcelormittal.com.br/sig/login" >
+          Solicitud de Pedido
+        </a>
+        <a class="btn-acindar-primary w-100 mt-2"  role="button" href="http://sig.arcelormittal.com.br/sig/login" >
+          Pedido de Compra
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+<!--/* FIN MODALS */-->
+
+
+
 <footer class="border-top text-muted bg-dark mt-auto" style="color:white !important;">
-    <div class="container">
-        &copy; 2023 - ArcelorMittal Acindar Accesos
+    <div class="container text-center">
+        &copy; 2023 - ArcelorMittal Acindar Portal Autogestión
     </div>
 </footer>
 </body>

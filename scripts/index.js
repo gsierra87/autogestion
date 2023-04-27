@@ -1,43 +1,43 @@
 $(document).ready(function () {
 
-    $('#btnAutoGestion').mouseenter(function () {
-        $('#collapseAutoGestion').collapse("show");
+    // $('#btnAutoGestion').mouseenter(function () {
+    //     $('#collapseAutoGestion').collapse("show");
+    // });
+ 
+    // $('#btnAutoGestion').mouseleave(function () {
+    //     $('#collapseAutoGestion').collapse("hide");
+    // });
+
+    // $('#btnAutoGestion').mouseenter(function () {
+    //     $('#collapseAutoGestion').collapse("show");
+    // });
+ 
+    // $('#btnAutoGestion').mouseleave(function () {
+    //     $('#collapseAutoGestion').collapse("hide");
+    // });
+
+    $('#btnVacaciones').mouseenter(function () {
+        $('#collapseVacaciones').collapse("show");
     });
  
-    $('#btnAutoGestion').mouseleave(function () {
-        $('#collapseAutoGestion').collapse("hide");
+    $('#btnCloseVacaciones').click(function () {
+        $('#collapseVacaciones').collapse("hide");
     });
 
-    $('#btnAutoGestion').mouseenter(function () {
-        $('#collapseAutoGestion').collapse("show");
+    $('#btnAnticipo').mouseenter(function () {
+        $('#collapseAnticipo').collapse("show");
     });
  
-    $('#btnAutoGestion').mouseleave(function () {
-        $('#collapseAutoGestion').collapse("hide");
-    });
-
-    $('#btnIdm').mouseenter(function () {
-        $('#collapseIdm').collapse("show");
-    });
- 
-    $('#btnIdm').mouseleave(function () {
-        $('#collapseIdm').collapse("hide");
-    });
-
-    $('#btnDesempenio').mouseenter(function () {
-        $('#collapseDesempenio').collapse("show");
-    });
- 
-    $('#btnDesempenio').mouseleave(function () {
-        $('#collapseDesempenio').collapse("hide");
+    $('#btnCloseAnticipo').click(function () {
+        $('#collapseAnticipo').collapse("hide");
     });
     
-    $('#btnSis').mouseenter(function () {
-        $('#collapseSis').collapse("show");
+    $('#btnRendiciones').mouseenter(function () {
+        $('#collapseRendiciones').collapse("show");
     });
 
-    $('#btnSis').mouseleave(function () {
-        $('#collapseSis').collapse("hide");
+    $('#btnCloseRendiciones').click(function () {
+        $('#collapseRendiciones').collapse("hide");
     });
 
     $('#btnSnow').mouseenter(function () {
