@@ -1,4 +1,4 @@
-/* @font-face {
+@font-face {
   font-family: 'Gilroy-SemiBold';
   src: url('../fonts/Gilroy-SemiBold.otf');
 }
@@ -11,11 +11,11 @@
 @font-face {
   font-family: 'Gilroy-ExtraBold';
   src: url('../fonts/Gilroy-ExtraBold.otf');
-} */
+}
 
-/* body {
+body {
   font-family: 'Gilroy-Light' !important;
-} */
+}
 
 .card2 {
   display: flex;
@@ -129,6 +129,7 @@ svg {
     border-radius: 4px 4px 0px 0px;
 }
 
+
 .btn-acindar-primary {
   width: fit-content;
   display: flex;
@@ -165,15 +166,14 @@ svg {
     .btn-acindar-primary:hover:before {
       width: 100%; }
 
-
-      .btn-acindar-orange {
+      .btn-acindar-black {
         width: fit-content;
         display: flex;
         justify-content: space-around;
         padding: .75rem 1.25rem;
-        border: 1px solid black;
-        color: white;
-        background: orangered;
+        border: 1px solid #2b3035;
+        color: black;
+        background: white;
         transition: all .3s;
         position: relative;
         overflow: hidden;
@@ -182,24 +182,24 @@ svg {
         text-decoration: none;
         cursor: pointer;
         border-radius: 4px; }
-        .btn-acindar-orange svg {
+        .btn-acindar-black svg {
           width: 35px;
           margin-left: 25px; }
-        .btn-acindar-orange:before {
+        .btn-acindar-black:before {
           content: '';
           position: absolute;
           bottom: 0;
           left: 0;
           width: 0%;
           height: 100%;
-          background: black;
+          background: #2b3035;
           transition: all .3s;
           z-index: -1; }
-        .btn-acindar-orange:hover {
+        .btn-acindar-black:hover {
           color: #fff;
-          border: 1px solid black;
+          border: 1px solid #2b3035;
           background: white; }
-          .btn-acindar-orange:hover:before {
+          .btn-acindar-black:hover:before {
             width: 100%; }
 
 
@@ -256,4 +256,30 @@ footer {
 
 .btn span {
   font-size: 13px !important;
+}
+
+.btn-primary{
+  background: #8f2567 !important;
+  border: 1px solid #8f2567 !important;
+}
+
+.btn-secondary{
+  background: #d46c49 !important;
+  border: 1px solid #d46c49 !important;
+}
+
+
+
+
+.cardWithBackImg {
+  background-image: url("https://clientes.acindar.com.ar/Content/images-new/misc/card-back-2.jpg?anchor=center&mode=crop&width=999&height=1250");
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire */
+  border-radius: 4px;
+}
+
+.carousel-control-next,
+.carousel-control-prev /*, .carousel-indicators */ {
+    filter: invert(100%);
 }

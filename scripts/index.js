@@ -16,7 +16,7 @@ $(document).ready(function () {
     //     $('#collapseAutoGestion').collapse("hide");
     // });
 
-    $('#btnVacaciones').mouseenter(function () {
+    $('#btnVacaciones').click(function () {
         $('#collapseVacaciones').collapse("show");
     });
  
@@ -24,7 +24,7 @@ $(document).ready(function () {
         $('#collapseVacaciones').collapse("hide");
     });
 
-    $('#btnAnticipo').mouseenter(function () {
+    $('#btnAnticipo').click(function () {
         $('#collapseAnticipo').collapse("show");
     });
  
@@ -32,7 +32,7 @@ $(document).ready(function () {
         $('#collapseAnticipo').collapse("hide");
     });
     
-    $('#btnRendiciones').mouseenter(function () {
+    $('#btnRendiciones').click(function () {
         $('#collapseRendiciones').collapse("show");
     });
 
@@ -40,31 +40,31 @@ $(document).ready(function () {
         $('#collapseRendiciones').collapse("hide");
     });
 
-    $('#btnSnow').mouseenter(function () {
+    $('#btnSnow').click(function () {
         $('#collapseSnow').collapse("show");
     });
 
-    $('#btnSnow').mouseleave(function () {
-        $('#collapseSnow').collapse("hide");
-    });
+    // $('#btnSnow').mouseleave(function () {
+    //     $('#collapseSnow').collapse("hide");
+    // });
 
-    $('#btnIdear').mouseenter(function () {
+    $('#btnIdear').click(function () {
         $('#collapseIdear').collapse("show");
     });
 
-    $('#btnIdear').mouseleave(function () {
-        $('#collapseIdear').collapse("hide");
-    });
+    // $('#btnIdear').mouseleave(function () {
+    //     $('#collapseIdear').collapse("hide");
+    // });
 
-    $('#btnGuardias').mouseenter(function () {
+    $('#btnGuardias').click(function () {
         $('#collapseGuardias').collapse("show");
     });
 
-    $('#btnGuardias').mouseleave(function () {
-        $('#collapseGuardias').collapse("hide");
-    });
+    // $('#btnGuardias').mouseleave(function () {
+    //     $('#collapseGuardias').collapse("hide");
+    // });
 
-    $('#btnFiori').mouseenter(function () {
+    $('#btnFiori').click(function () {
         $('#collapseFiori').collapse("show");
     });
 
@@ -72,7 +72,7 @@ $(document).ready(function () {
         $('#collapseFiori').collapse("hide");
     });
 
-    $('#btnChatbot').mouseenter(function () {
+    $('#btnChatbot').click(function () {
         $('#collapseChatbot').collapse("show");
     });
 
@@ -80,7 +80,7 @@ $(document).ready(function () {
         $('#collapseChatbot').collapse("hide");
     });
 
-    $('#btnRecorrido').mouseenter(function () {
+    $('#btnRecorrido').click(function () {
         $('#collapseRecorrido').collapse("show");
     });
 
@@ -88,7 +88,7 @@ $(document).ready(function () {
         $('#collapseRecorrido').collapse("hide");
     });
 
-    $('#btnRemis').mouseenter(function () {
+    $('#btnRemis').click(function () {
         $('#collapseRemis').collapse("show");
     });
 
@@ -96,7 +96,7 @@ $(document).ready(function () {
         $('#collapseRemis').collapse("hide");
     });
 
-    $('#btnCompra').mouseenter(function () {
+    $('#btnCompra').click(function () {
         $('#collapseCompra').collapse("show");
     });
 
@@ -104,7 +104,7 @@ $(document).ready(function () {
         $('#collapseCompra').collapse("hide");
     });
 
-    $('#btnOrganigrama').mouseenter(function () {
+    $('#btnOrganigrama').click(function () {
         $('#collapseOrganigrama').collapse("show");
     });
 
@@ -112,7 +112,7 @@ $(document).ready(function () {
         $('#collapseOrganigrama').collapse("hide");
     });
 
-    $('#btnReserva').mouseenter(function () {
+    $('#btnReserva').click(function () {
         $('#collapseReserva').collapse("show");
     });
 
@@ -120,7 +120,7 @@ $(document).ready(function () {
         $('#collapseReserva').collapse("hide");
     });
 
-    $('#btnProveedores').mouseenter(function () {
+    $('#btnProveedores').click(function () {
         $('#collapseProveedores').collapse("show");
     });
 
@@ -128,7 +128,7 @@ $(document).ready(function () {
         $('#collapseProveedores').collapse("hide");
     });
 
-    $('#btnOffice').mouseenter(function () {
+    $('#btnOffice').click(function () {
         $('#collapseOffice').collapse("show");
     });
 
