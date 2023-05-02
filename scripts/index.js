@@ -16,32 +16,32 @@ $(document).ready(function () {
     //     $('#collapseAutoGestion').collapse("hide");
     // });
 
-    $('#btnVacaciones').click(function () {
-        $('#collapseVacaciones').collapse("show");
-    });
+    // $('#btnVacaciones').click(function () {
+    //     $('#collapseVacaciones').collapse("toogle");
+    // });
  
     $('#btnCloseVacaciones').click(function () {
         $('#collapseVacaciones').collapse("hide");
     });
 
-    $('#btnAnticipo').click(function () {
-        $('#collapseAnticipo').collapse("show");
-    });
+    // $('#btnAnticipo').click(function () {
+    //     $('#collapseAnticipo').collapse("toogle");
+    // });
  
     $('#btnCloseAnticipo').click(function () {
         $('#collapseAnticipo').collapse("hide");
     });
     
-    $('#btnRendiciones').click(function () {
-        $('#collapseRendiciones').collapse("show");
-    });
+    // $('#btnRendiciones').click(function () {
+    //     $('#collapseRendiciones').collapse("toogle");
+    // });
 
     $('#btnCloseRendiciones').click(function () {
         $('#collapseRendiciones').collapse("hide");
     });
 
     $('#btnSnow').click(function () {
-        $('#collapseSnow').collapse("show");
+        $('#collapseSnow').collapse("toogle");
     });
 
     // $('#btnSnow').mouseleave(function () {
@@ -49,7 +49,7 @@ $(document).ready(function () {
     // });
 
     $('#btnIdear').click(function () {
-        $('#collapseIdear').collapse("show");
+        $('#collapseIdear').collapse("toogle");
     });
 
     // $('#btnIdear').mouseleave(function () {
@@ -57,7 +57,7 @@ $(document).ready(function () {
     // });
 
     $('#btnGuardias').click(function () {
-        $('#collapseGuardias').collapse("show");
+        $('#collapseGuardias').collapse("toogle");
     });
 
     // $('#btnGuardias').mouseleave(function () {
@@ -65,7 +65,7 @@ $(document).ready(function () {
     // });
 
     $('#btnFiori').click(function () {
-        $('#collapseFiori').collapse("show");
+        $('#collapseFiori').collapse("toogle");
     });
 
     $('#btnFiori').mouseleave(function () {
@@ -73,7 +73,7 @@ $(document).ready(function () {
     });
 
     $('#btnChatbot').click(function () {
-        $('#collapseChatbot').collapse("show");
+        $('#collapseChatbot').collapse("toogle");
     });
 
     $('#btnChatbot').mouseleave(function () {
@@ -81,7 +81,7 @@ $(document).ready(function () {
     });
 
     $('#btnRecorrido').click(function () {
-        $('#collapseRecorrido').collapse("show");
+        $('#collapseRecorrido').collapse("toogle");
     });
 
     $('#btnRecorrido').mouseleave(function () {
@@ -89,7 +89,7 @@ $(document).ready(function () {
     });
 
     $('#btnRemis').click(function () {
-        $('#collapseRemis').collapse("show");
+        $('#collapseRemis').collapse("toogle");
     });
 
     $('#btnRemis').mouseleave(function () {
@@ -97,7 +97,7 @@ $(document).ready(function () {
     });
 
     $('#btnCompra').click(function () {
-        $('#collapseCompra').collapse("show");
+        $('#collapseCompra').collapse("toogle");
     });
 
     $('#btnCompra').mouseleave(function () {
@@ -105,7 +105,7 @@ $(document).ready(function () {
     });
 
     $('#btnOrganigrama').click(function () {
-        $('#collapseOrganigrama').collapse("show");
+        $('#collapseOrganigrama').collapse("toogle");
     });
 
     $('#btnOrganigrama').mouseleave(function () {
@@ -113,7 +113,7 @@ $(document).ready(function () {
     });
 
     $('#btnReserva').click(function () {
-        $('#collapseReserva').collapse("show");
+        $('#collapseReserva').collapse("toogle");
     });
 
     $('#btnReserva').mouseleave(function () {
@@ -121,7 +121,7 @@ $(document).ready(function () {
     });
 
     $('#btnProveedores').click(function () {
-        $('#collapseProveedores').collapse("show");
+        $('#collapseProveedores').collapse("toogle");
     });
 
     $('#btnProveedores').mouseleave(function () {
@@ -129,7 +129,7 @@ $(document).ready(function () {
     });
 
     $('#btnOffice').click(function () {
-        $('#collapseOffice').collapse("show");
+        $('#collapseOffice').collapse("toogle");
     });
 
     $('#btnOffice').mouseleave(function () {
