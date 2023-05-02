@@ -1,16 +1,17 @@
 @font-face {
   font-family: 'Gilroy-SemiBold';
-  src: url('../fonts/Gilroy-SemiBold.otf');
+  src: url('https://gsierra87.github.io/autogestion/fonts/Gilroy-SemiBold.otf');
 }
-
+/* '../fonts/Gilroy-SemiBold.otf' */
+/* https://gsierra87.github.io/autogestion/fonts/ */
 @font-face {
   font-family: 'Gilroy-Light';
-  src: url('../fonts/Gilroy-Light.otf');
+  src: url('https://gsierra87.github.io/autogestion/fonts/Gilroy-Light.otf');
 }
 
 @font-face {
   font-family: 'Gilroy-ExtraBold';
-  src: url('../fonts/Gilroy-ExtraBold.otf');
+  src: url('https://gsierra87.github.io/autogestion/fonts/Gilroy-ExtraBold.otf');
 }
 
 body {
@@ -267,9 +268,6 @@ footer {
   background: #d46c49 !important;
   border: 1px solid #d46c49 !important;
 }
-
-
-
 
 .cardWithBackImg {
   background-image: url("https://clientes.acindar.com.ar/Content/images-new/misc/card-back-2.jpg?anchor=center&mode=crop&width=999&height=1250");
